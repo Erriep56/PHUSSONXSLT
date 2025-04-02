@@ -1,31 +1,11 @@
-# Venetian artists in Pierre-Jean Mariette's manuscript notes in XML/TEI
+# Artistes vénitiens dans les notes manuscrites de Pierre-Jean Mariette en XML/TEI
 
-This project involves transcribing and encoding in XML/TEI the pages of the *Notes Manuscrites* by Pierre-Jean Mariette (1694-1774) related to Venetian artists.
+Ce projet consiste à transcrire et encoder en XML/TEI les pages des Notes Manuscrites de Pierre-Jean Mariette (1694-1774) relatives aux artistes vénitiens.
 
-## 📜 The manuscript
-Pierre-Jean Mariette's manuscript notes, written until his death in 1774, bring together several handwritten documents, notably the catalogs of the print collections of Eugène de Savoie (1663-1736) and Jean V of Portugal (1689-1750). These list the prints made after European painters from the 15th to the early 18th centuries.
-The complete set of notes was acquired by the BnF's Département des Estampes in 1827 and their shelfmark are RESERVE YA2-4 (1-11).
-The lists concerning Italian painters have been reproduced in facsimile by Daniel Wildenstein et al. (ed.), *Notes manuscrites de P.-J. Mariette. Les grands peintres. I. Écoles d'Italie*, Paris, 1969. [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k15082862)
+## 📜 Le manuscrit
 
-## 🎭 The project
-The aim of this project is to provide an XML/TEI encoded edition of the manuscript pages concerning the Venetian painters (Veronese, Titian, Tintoretto). By encoding Mariette’s manuscript notes in XML/TEI, the project seeks to preserve the intricate structure of his catalogs, including his commentary on prints.
+Les notes manuscrites de Pierre-Jean Mariette, rédigées jusqu'à sa mort en 1774, rassemblent plusieurs documents écrits de sa main, notamment les catalogues des collections d'estampes d’Eugène de Savoie (1663-1736) et de Jean V de Portugal (1689-1750). Ces catalogues recensent les estampes réalisées d’après des peintres européens du XVe siècle au début du XVIIIe siècle. L’ensemble complet de ces notes a été acquis par le Département des Estampes de la BnF en 1827 et est conservé sous la cote RESERVE YA2-4 (1-11). Les listes concernant les peintres italiens ont été reproduites en fac-similé par Daniel Wildenstein et al. (éd.), Notes manuscrites de P.-J. Mariette. Les grands peintres. I. Écoles d'Italie, Paris, 1969. Gallica
 
-## 🎨 The repository
-The repository includes:
+## 🎭 Le projet
 
-- An XML file with TEI encoding of the manuscript.
-
-- In the folder images_transcriptions
-	+ Facsimile images of the manuscript pages
-	+ Plain text transcriptions
-
-- Schemas for which the xml file is validated :
-	+ DTD
-	+ ODD
-	+ RNG (in the out folder)
-    
-- An HTML version of the encoded text.
-
-## 🛶 Bibliography
-- Marie-Thérèse Mandroux-França and Maxime Préaud, *La Collection d'estampes de Jean V, roi du Portugal*, Paris : BnF Éditions, 2004, 3 vol.
-- Kristel Smentek, "Pierre-Jean Mariette, le connaisseur d’estampes", in Sophie Raux and al. (dir.), *L’estampe un art multiple à la portée de tous ?*, Villeneuve d'Ascq : Presses universitaires du Septentrion, 2008, p. 171-189.
+L'objectif de ce projet est de proposer une édition encodée en XML/TEI des pages du manuscrit consacrées aux peintres vénitiens (Véronèse, Titien, Tintoret). En encodant les notes manuscrites de Mariette en XML/TEI, le projet vise à préserver la structure complexe de ses catalogues, y compris ses commentaires sur les estampes.
