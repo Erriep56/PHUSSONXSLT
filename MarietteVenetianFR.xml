@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notes manuscrites de Pierre-Jean Mariette en XML-TEI</title>
+            <title>Artistes vénitiens</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Pierre Husson</publisher>
+            <date>2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France, Département des Estampes et de la
+                     photographie</repository>
+                  <idno>RESERVE YA2-4 (1-11)</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title xml:lang="fr">Notes manuscrites</title>
+                     <author>Pierre-Jean Mariette</author>
+                     <textLang mainLang="fr" otherLangs="it"/>
+                     <bibl>
+                        <title>Notes manuscrites de P.-J. Mariette. Les grands peintres. I. Écoles
+                           d'Italie</title>
+                        <publisher>Daniel Wildenstein et al.</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1969</date>
+                     </bibl>
+                  </msItem>
+               </msContents>
+               <history>
+                  <provenance><p>Written in <origPlace>France</origPlace> by Pierre-Jean Mariette
+                           <origDate>Written until Mariette's death in
+                     1774</origDate>.</p></provenance>
+               </history>
+            </msDesc>
+            <listPerson>
+               <person xml:id="brebiette">
+                  <persName>Pierre Brebiette</persName>
+               </person>
+               <person xml:id="nrcochin">
+                  <persName>Noël Robert Cochin</persName>
+               </person>
+               <person xml:id="georgi">
+                  <persName>G. Georgi.</persName>
+               </person>
+               <person xml:id="hollar">
+                  <persName>Wenceslaus Hollar</persName>
+               </person>
+               <person xml:id="vlefebvre">
+                  <persName>Valentin Lefebvre</persName>
+               </person>
+               <person xml:id="leopold">
+                  <persName>Archiduc Leopold</persName>
+               </person>
+               <person xml:id="lichtenstein">
+                  <persName>Prince de Lichtenstein</persName>
+               </person>
+               <person xml:id="plisebetius">
+                  <persName>P. Lisebetius</persName>
+               </person>
+               <person xml:id="cmellant">
+                  <persName>Claude Mellan</persName>
+               </person>
+               <person xml:id="fameloni">
+                  <persName>Francesco Antonio Meloni</persName>
+               </person>
+               <person xml:id="patin">
+                  <persName>Carla Caterina Patin</persName>
+               </person>
+               <person xml:id="pozzosarata">
+                  <persName>Luigi Pozzosarata</persName>
+               </person>
+               <person xml:id="ridolfi">
+                  <persName>Carlo Ridolfi</persName>
+               </person>
+               <person xml:id="tintoret">
+                  <persName>Le Tintoret</persName>
+               </person>
+               <person xml:id="veronese">
+                  <persName>Paolo Caliari Veronese</persName>
+               </person>
+               <person xml:id="avittoria">
+                  <persName>Alessandro Vittoria</persName>
+               </person>
+               <person xml:id="gvoenius">
+                  <persName>Gisbert Voenius</persName>
+               </person>
+               <person xml:id="zanetti">
+                  <persName>Anton Maria Zanetti</persName>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="murano_stjacques">
+                  <placeName>Murano, Église saint Jacques</placeName>
+               </place>
+               <place xml:id="venise_stseb">
+                  <placeName>Venise, Église Saint-Sebastien</placeName>
+               </place>
+            </listPlace>
+            
+               <!-- Bibliographie -->
+               <listBibl>
+                  <head>Bibliographie</head>
+                  <bibl xml:id="wildenstein1969">Daniel Wildenstein et al. (ed.), Notes manuscrites de P.-J. Mariette. Les grands peintres. I. Écoles d'Italie, Paris, 1969.</bibl>
+                  <bibl xml:id="Mandroux-França2004">Marie-Thérèse Mandroux-França and Maxime Préaud, La Collection d'estampes de Jean V, roi du Portugal, Paris : BnF Éditions, 2004, 3 vol.</bibl>
+                  <bibl xml:id="Smentek2008">Kristel Smentek, "Pierre-Jean Mariette, le connaisseur d’estampes", in Sophie Raux and al. (dir.), L’estampe un art multiple à la portée de tous ?, Villeneuve d'Ascq : Presses universitaires du Septentrion, 2008, p. 171-189.</bibl>
+               </listBibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p>Ce projet consiste à transcrire et encoder en XML/TEI les pages des Notes Manuscrites de Pierre-Jean Mariette (1694-1774) relatives aux artistes vénitiens.</p>
+            <p>Les notes manuscrites de Pierre-Jean Mariette, rédigées jusqu'à sa mort en 1774, rassemblent plusieurs documents écrits de sa main, notamment les catalogues des collections d'estampes d'Eugène de Savoie (1663-1736) et de Jean V de Portugal (1689-1750). Ces catalogues recensent les estampes réalisées d'après des peintres européens du XVe siècle au début du XVIIIe siècle. L'ensemble complet de ces notes a été acquis par le Département des Estampes de la BnF en 1827 et est conservé sous la cote RESERVE YA2-4 (1-11). Les listes concernant les peintres italiens ont été reproduites en fac-similé par Daniel Wildenstein et al. (éd.), Notes manuscrites de P.-J. Mariette. Les grands peintres. I. Écoles d'Italie, Paris, 1969.</p>
+            <p><ref target="https://gallica.bnf.fr/ark:/12148/bpt6k15082862" type="facsimile">Consulter le fac-similé sur Gallica</ref></p>
+            <p>L'objectif de ce projet est de proposer une édition encodée en XML/TEI des pages du manuscrit consacrées aux peintres vénitiens (Véronèse, Titien, Tintoret). En encodant les notes manuscrites de Mariette en XML/TEI, le projet vise à préserver la structure complexe de ses catalogues, y compris ses commentaires sur les estampes.</p>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="page" xml:id="section_veronese">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k15082862/f346.item" n="300"/>
+            <head>
+               <title>Caliari 2</title>
+               <title>Table des Oeuvres de <persName ref="#veronese" role="sectiontitle">Paul Caliari</persName> de
+                  Verone, dit Véronèse, plus connu sous le nom de Paul Véronèse, Peintre de l'École
+                  Vénitienne</title>
+            </head>
+            <list>
+               <label>1</label>
+               <item n="1">
+                  <list>
+                     <item>Le Portrait de <persName ref="#veronese" role="représenté">Paul
+                           Caliari</persName> de Vérone, en buste, gravé au burin en réduction par
+                           <persName ref="#georgi" role="graveur">G. Georgi.</persName>
+                        <note>tiré du l. des vies des peintres vénitiens par <persName
+                              ref="#ridolfi" role="écrivain">Ridolfi</persName>.</note></item>
+                     <item>La representation du tombeau qui a été elevé à la gloire du fameux
+                        peintre par ses enfans et par son frere dans l'<placeName
+                           ref="#venise_stseb">Eglise de St. Sebastien à Venise</placeName>, l'on y
+                        voit son buste placé au dessus d'une table qui renferme son doge, gravé à
+                        l'eau-forte par un anonyme et non pas par Pierre Santos Bartoli, ainsy qu'il
+                        est marqué au bas de cette estampe, c'est une supposition faicte par celuy
+                        qui a la planche, apparemment pour lui donner plus de crédit. <note>Martin a
+                           cette planche qu'il a fait graver. <dimensions>
+                              <height>10°.h</height>
+                              <width>7°. 8'. trav.</width>
+                           </dimensions>
+                        </note>
+                     </item>
+                  </list>
+               </item>
+               <label>2</label>
+               <item n="2">
+                  <list>
+                     <item>Le Sacrifice d'Abraham, gravé à l'eau-forte par <persName
+                           ref="#plisebetius" role="graveur">P. Lisebetius</persName> d'après un
+                        tableau de <persName ref="#veronese" role="auteur">Paul Veronese</persName>
+                        du Cabinet de <persName ref="#leopold" role="collectionneur">l'Archiduc
+                           Leopold</persName>.</item>
+                     <item>Eliezer presentant des bracelets à Rebecca, et la choisissant pour estre
+                        la femme d'Isaac, dessiné et gravé à l'eau-forte par <persName
+                           ref="#fameloni" role="graveur">François-Antoine Meloni</persName>. <note>
+                           <dimensions>
+                              <height>11.° 9.' haut </height>
+                              <width>14.° 6.' trav.</width>
+                           </dimensions> d'après un tableau de la gallerie du <persName
+                              ref="lichtenstein">P.ce de Lichtensetein</persName> à Vienne, autant
+                           que je puis m'en souvenir. non mais d'après un dessins (?) qui etoit
+                           [...] et qui fut proposé à M. le Régent (?) par <persName ref="#zanetti"
+                              >Zanetti</persName>.</note>
+                     </item>
+                  </list>
+               </item>
+               <label>3</label>
+               <item n="3">
+                  <list>
+                     <item>La fille de Pharaon, prenant soin de la vie du jeune Moyse, qu'elle vient
+                        de faire retirer de dessus le Nil, dessiné et gravé à l'eau-forte par
+                           <persName ref="#nrcochin" role="graveur">N. R. Cochin</persName>
+                        <note><dimensions>
+                              <height>9.° 9'. h. </height>
+                              <width>14.° tr.</width>
+                           </dimensions> du livre de <persName ref="#patin" role="écrivain"
+                              >Patin</persName></note></item>
+                     <item>Autre du mesme sujet traitté differemment, gravé à l'eau-forte par
+                           <persName ref="#brebiette" role="graveur">Pierre Brebiette</persName> le
+                        tableau est chez <persName ref="orleans" role="collectionneur">M. le duc
+                           d'Orléans</persName>
+                        <note>
+                           <dimensions>
+                              <height>10°. h. </height>
+                              <width>16°. tr.</width>
+                           </dimensions>
+                        </note>
+                     </item>
+                  </list>
+               </item>
+               <label>4</label>
+               <item n="4">Esther se presentant devant Assureus gravé à l'eau-forte par <persName ref="hollar" role="graveur">Wenceslaus
+                  Hollar</persName>, d'après le tableau qui estoit pour lors dans la Gallerie de l'<persName ref="#leopold" role="collectionneur">Archiduc
+                     Leopold</persName> et qui se trouve presentement dans celle de l'Empereur <note><dimensions>
+                        <height>15.° 3'. h. </height>
+                        <width>17.° 6.' trav. </width>
+                     </dimensions>Il y a encore une autre planche gravée par Hollar d'après le même
+                     tableau </note>
+               </item>
+               <label>5</label>
+               <item n="5"> Sainte Elisabeth recevant la visite de la sainte vierge sur un degré qui
+                  est au devant de sa maison, dessiné et gravé à l'eau-forte par <persName
+                     ref="#vlefebvre">Valentin Le Febre</persName> de Bruxelles, d'après le tableau
+                  original qui est à Venise dans l'église des religieuses de <placeName ref="#murano_stjacques">St. Jacques à Murano</placeName>.
+               </item>
+            </list>
+         </div>
+         <div type="page" xml:id="section_tintoret">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k15082862/f356.item" n="310"/>
+            <head>
+               <title><persName ref="#tintoret" role="sectiontitle">ROBUSTI</persName></title>
+               <title>Table des oeuvres de <persName ref="tintoret">Jacques Robusti dit le
+                     Tintoret</persName>, Peintre vénitien.</title></head>
+            <list>
+               <label>1</label>
+               <item n="1">Le Portrait du <persName ref="#tintoret" role="représenté"
+                     >Tintoret</persName>, en buste. dans une forme ovale, accompagné de figures
+                  allégoriques representant Atlas à qui la Peinture aide à supporter le globe
+                  celeste, gravé au burin par <persName ref="#gvoenius" role="graveur">Gisbert
+                     Voenius</persName> d'après <persName role="auteur">Louis Pozzosarata</persName>
+                  <note>dédié à <persName ref="avittoria" role="dedicated">Alexandre
+                        Vittoria</persName> Sculpteur et architecte par <persName ref="#pozzosarata"
+                        role="auteur">L. Pozzosarata</persName>
+                     <persName ref="#gvoenius" type="signature">G. V. F.</persName>
+                     <persName ref="#tintoret" role="représenté">Le Tintoret</persName> etoit agé de 70
+                     ans pourlon (?) <dimensions>
+                        <height>10.° 4'. h. </height>
+                        <width>8°. trav.</width>
+                     </dimensions></note></item>
+               <label>2</label>
+               <item n="2">Jacob donnant à boire au troupeau de Rachel, après avoir levé la pierre
+                  qui fermoit l'entrée du puits gravé au burin par <persName ref="#cmellan"
+                     role="graveur">Claude Mellan</persName>. </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>
